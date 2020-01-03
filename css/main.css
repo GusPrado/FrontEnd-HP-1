@@ -8,7 +8,7 @@ ul {
   padding: 0px !important;
 }
 
-main {
+main, .content {
   margin: 0 auto;
   width: 980px;
   position: relative;
@@ -153,3 +153,100 @@ button.slick-next {
 li.slick-active button {
   background-color: #00bac6;
 }
+
+h3 {
+  font-weight: normal!important;
+}
+
+.texto-destaque {
+  text-align: center;
+}
+
+.texto-destaque strong {
+  color: #646464
+}
+
+.texto-destaque h1 {
+  font-size: 30px;
+  color: #818181;
+}
+
+.texto-destaque p {
+  font-size: 15px;
+  color: #9a9a9a;
+}
+
+.col-3 {
+  width: 30%;
+  float: left;
+  position: relative;
+  padding: 0 15px;
+}
+
+.bloco-imagem img {
+  margin: 0 auto;
+  width: 100%;
+  height: auto;
+}
+
+.bloco-imagem {
+  height: 300px;
+  border: 1px solid #c5c5c5;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  margin-left: 10px;
+}
+
+.bloco-imagem b, p {
+  text-align: left;
+}
+
+.bloco-texto {
+  margin-top: 3em;
+}
+
+.bloco-imagens-texto {
+  background-color: #eeeeee;
+}
+
+.bloco-imagens-texto::before {
+  width: 100%;
+  display: inline-block;
+  content: '';
+  height: 63px;
+  background-image: url(../img/seta.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: #fff;
+
+}
+
+.bloco-imagens-texto::after {
+  width: 100%;
+  display: inline-block;
+  content: '';
+  height: 70px;
+  background-color: #eeeeee;
+}
+
+.col-4 {
+  float: left;
+  width: 25%;
+  text-align: center;
+}
+
+.col-4 img {
+  margin: 0 auto;
+  padding-top: 1em;
+  vertical-align: middle;
+}
+
+.bloco-logos {
+  height: 170px;
+}
+
+.bloco-logos img {
+  margin-top: 50px;
+}
+
+
